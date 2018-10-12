@@ -1,0 +1,71 @@
+body {
+    background-color: green;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.header-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: #EEEEEE;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+}
+.header-container h1 {
+    font-weight: bold;
+    font-size: 35px;
+}
+.back-page {
+    position: relative;
+    top: 20px;
+    height: 1000px;
+    background-color: #FFFFFF;
+}
+.content-page {
+    margin: auto;
+    background-color: #EEEEEE;
+    width: 98%;
+    padding-bottom: 30px;
+}
+.image-box {
+    width: 98%;
+    background-color: #FFF;
+    margin: auto;
+}
+.image-box img {
+    margin: auto;
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+.date-list {
+    margin: auto;
+    max-width: 40%;
+}
+
+.date-list header {
+    font-size: 15px;
+}
+.date-list ul {
+    max-width: 100%;
+}
+
+.date-list header {
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.quote {
+    margin: auto;
+    text-align: center;
+}
+
+.more-info p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#img-caption {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
